@@ -18,7 +18,7 @@ public class InterfaceCreator {
                 for (String s: strings) {
                     if (!Character.isUpperCase(s.charAt(0)))
                         return false;
-                };
+                }
                 return true;
         };
     }
